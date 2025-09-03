@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()  // Now recommended by Google
-        setConten {
+        setContent {
             KotlinWithComposeTheme {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
